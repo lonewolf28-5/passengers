@@ -1,0 +1,50 @@
+body {
+    background-image: url("sub.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+  
+    font-family:sans-serif;
+   
+  }
+ 
+  button{
+   
+   border-radius: 5px;
+    padding: 10px;
+    padding-top: 10px;
+    color:aliceblue;
+    font-weight: bold;
+    background-color: red;
+    WIDTH:200px;
+
+  }
+  button:hover{
+    .button:hover {background-color: #2091b7}
+  }
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #c71111;
+  transform: translateY(4px);
+}
+  
+  #increment_id{
+    background: darkblue;
+  }
+  #save-btn{
+    background-color: green;
+  }
+  #reset-btn{
+    background-color:darkred ;
+  }
+ 
+  .main{
+    text-align: center;
+    color:wheat;
+  }
+  #save-el{
+    font-weight: bold;
+    font-size: 24px;
+    color:rgb(165, 225, 23);
+  }
